@@ -1,0 +1,14 @@
+client_id: client1
+server_address: 127.0.0.1:8080
+data_path: data/client1/radiomics.csv
+target_col: Target
+id_col: ID
+test_size: 0.2
+seed: 42
+batch_size: 32
+epochs: 5
+local_epochs: 1
+learning_rate: 0.001
+hidden_dim: 64
+dropout: 0.2
+output_dir: outputs/client1
