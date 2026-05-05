@@ -1,4 +1,4 @@
-# EMRAPT Federated Learning Prototype
+# EMR-Federated Learning
 
 This repository is a local prototype for federated learning on tabular radiomics data. It is designed to simulate a small federated setup on one machine with one server process and two client processes, where each client trains on its own local CSV file without sharing raw data.
 
@@ -7,7 +7,7 @@ The current phase runs a local Flower FedAvg prototype with one server process a
 ## Project Structure
 
 ```text
-emrapt-fl/
+federated-learning-task/
   configs/          YAML configuration for the server and local clients
   data/             Local client data folders, not intended for raw data sharing
   src/common/       Shared config, data, metrics, model, and utility code

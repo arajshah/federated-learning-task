@@ -1,6 +1,6 @@
 host: 127.0.0.1
 port: 8080
-num_rounds: 3
+num_rounds: 10
 min_fit_clients: 2
 min_evaluate_clients: 2
 min_available_clients: 2
