@@ -1,3 +1,7 @@
+"""Build synthetic per-client CSV datasets for the local federated
+learning simulation, one file per client with a fixed seed.
+"""
+
 import argparse
 from pathlib import Path
 
