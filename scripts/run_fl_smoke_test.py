@@ -1,3 +1,8 @@
+"""End-to-end smoke test for the local federated run: generates the client
+data if needed, starts the server and clients, waits for the server port,
+and verifies the expected output files appear.
+"""
+
 import argparse
 import os
 import signal
