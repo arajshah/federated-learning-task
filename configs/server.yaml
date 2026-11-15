@@ -1,3 +1,6 @@
+# Config for the federated learning server: listen address, number of
+# rounds, and the minimum clients required to fit and evaluate.
+
 host: 127.0.0.1
 port: 8080
 num_rounds: 10
