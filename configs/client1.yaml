@@ -1,3 +1,6 @@
+# Config for federated learning client 1: local radiomics data, server
+# address, and training hyperparameters (seed 42, batch 32, 5 epochs).
+
 client_id: client1
 server_address: 127.0.0.1:8080
 data_path: data/client1/radiomics.csv
