@@ -1,3 +1,8 @@
+"""Evaluation metrics for binary classification results.
+
+Accuracy is computed from predicted probabilities at a threshold and
+ROC-AUC is reported only when both classes are present in the labels.
+"""
 import numpy as np
 from sklearn.metrics import accuracy_score, roc_auc_score
 
