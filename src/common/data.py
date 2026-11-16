@@ -1,3 +1,8 @@
+"""Tabular data loading and preparation for federated training.
+
+Loads a radiomics CSV, standardizes the features, and splits it into
+shuffled train and unshuffled test loaders with matching metadata.
+"""
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
