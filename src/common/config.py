@@ -1,3 +1,8 @@
+"""Configuration loading for the federated learning task.
+
+Reads YAML config files into plain mappings shared by the server and
+the clients, so every participant runs from the same settings.
+"""
 from pathlib import Path
 from typing import Any
 
