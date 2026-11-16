@@ -1,3 +1,8 @@
+"""Model definitions for the federated learning task.
+
+Provides the small multilayer perceptron used for binary classification
+on tabular features, with configurable hidden widths and dropout.
+"""
 import torch
 from torch import nn
 
