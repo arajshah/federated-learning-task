@@ -1,3 +1,5 @@
+"""Seed helpers shared by the federated-learning client and server."""
+
 import random
 
 import numpy as np
