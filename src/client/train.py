@@ -1,3 +1,5 @@
+"""Local single-client training and evaluation for the radiomics model."""
+
 import argparse
 from pathlib import Path
 
