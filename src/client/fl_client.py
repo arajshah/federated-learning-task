@@ -1,3 +1,5 @@
+"""Flower client for local radiomics training on tabular data."""
+
 import argparse
 from pathlib import Path
 from typing import Any
