@@ -1,3 +1,5 @@
+"""Flower FedAvg server with per-round metrics logging and checkpointing."""
+
 import argparse
 import csv
 from pathlib import Path
